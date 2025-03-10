@@ -1,0 +1,40 @@
+.resumeContainer {
+    @apply grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-gray-50 text-gray-800;
+  }
+  
+  .resumeMain {
+    @apply flex flex-col gap-8 row-start-2 items-center sm:items-start bg-white p-10 rounded-lg shadow-lg w-full max-w-3xl;
+  }
+  
+  .resumeHeader {
+    @apply text-4xl  font-bold text-center sm:text-left text-red-500;
+  }
+  
+  .resumeSubHeader {
+    @apply text-2xl text-gray-600 text-center sm:text-left;
+  }
+  
+  .contactInfo {
+    @apply text-center sm:text-left mb-6;
+  }
+  
+  .sectionHeader {
+    @apply text-2xl font-semibold mb-4 border-b pb-2;
+  }
+  
+  .list {
+    @apply list-disc pl-5 space-y-1;
+  }
+  
+  .experienceItem, .educationItem {
+    @apply mb-6;
+  }
+  
+  .experienceTitle, .educationTitle {
+    @apply font-bold text-lg;
+  }
+  
+  .footerLink {
+    @apply flex items-center gap-2 hover:underline hover:underline-offset-4 text-blue-500;
+  }
+  
